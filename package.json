@@ -2,7 +2,7 @@
   "name": "@sorrell/time-point",
   "version": "1.0.0",
   "description": "A simple representation of time as hours and minutes, in military or standard time.",
-  "main": "index.mjs",
+  "main": "Distribution/index.js",
   "types": "Distribution/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
