@@ -3,7 +3,6 @@
     {
         /* Language and Environment */
         "target": "ES5",
-        "jsx": "react",
 
         /* Modules */
         "module": "commonjs",
@@ -11,6 +10,8 @@
 
         /* Emit */
         "outDir": "./Distribution",
+        "declaration": true,
+        "declarationMap": true,
         "removeComments": true,
 
         /* Interop Constraints */
