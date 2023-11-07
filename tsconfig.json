@@ -1,0 +1,52 @@
+{
+    "compilerOptions":
+    {
+        /* Language and Environment */
+        "target": "ES5",
+        "jsx": "react",
+
+        /* Modules */
+        "module": "commonjs",
+        "rootDir": "./Source",
+
+        /* Emit */
+        "outDir": "./Distribution",
+        "removeComments": true,
+
+        /* Interop Constraints */
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+
+        /* Type Checking */
+        "strict": true,
+        "noImplicitAny": true,
+        // "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": false,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+
+        /* Completeness */
+        "skipLibCheck": true
+    },
+    "include":
+    [
+        "Source/**/*.ts",
+        "Source/**/*.tsx"
+    ],
+    "exclude":
+    [
+        "node_modules"
+    ]
+}
