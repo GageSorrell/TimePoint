@@ -1,5 +1,5 @@
 {
-  "name": "time-point",
+  "name": "@sorrell/time-point",
   "version": "0.0.1",
   "description": "A simple representation of time as hours and minutes, in military or standard time.",
   "main": "index.js",
