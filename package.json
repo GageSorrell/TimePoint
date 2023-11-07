@@ -1,6 +1,6 @@
 {
   "name": "@sorrell/time-point",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple representation of time as hours and minutes, in military or standard time.",
   "main": "index.mjs",
   "types": "Distribution/index.d.ts",
